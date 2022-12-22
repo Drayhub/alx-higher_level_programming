@@ -1,3 +1,11 @@
+#!/usr/bin/python3
+"""
+Module 6-square
+Defines class Square with private size, position, and public area
+can access and update size and position
+can print to stdout the square using #'s
+"""
+
 class Square:
     def __init__(self, size=0, position=(0, 0)):
         self.size = size
