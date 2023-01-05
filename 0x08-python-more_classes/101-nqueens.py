@@ -1,4 +1,10 @@
-import sys
+#!/usr/bin/python3
+"""
+
+This module contains an algorithm that resolves the N-Queen puzzle
+using backtracking
+
+"""
 
 def solve(n, board, col):
     if col == n:
@@ -63,5 +69,3 @@ def main():
     board = [[0 for _ in range(n)] for _ in range(n)]
     solve(n, board, 0)
 
-if __name__ == '__main__':
-    main()
