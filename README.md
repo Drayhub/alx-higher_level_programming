@@ -1,21 +1,32 @@
-# Test-driven development
-
-Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about docstrings to create and implement tests in **Python**.
+# Higher-level programming - Python
+Module of **High-level programming** and **Python**, carried out during **Full Stack Software Engineering studies** at **[ALX](https://www.alxafrica.com.com/)**.
 
 ## Technologies
+* Shell Scripts are written in Bash 4.3.11(1)
 * Python Scripts are written with Python 3.8.5
-* C files are compiled using `gcc 4.8.4`
+* `MySQL 5.7` (version 5.7.8-rc)
+* `MySQLdb`, version 1.3.10
+* `sqlalchemy`, version 1.2.5
 * Tested on Ubuntu 20.04 LTS
 
-## Files
-| Filename | Description |
-| -------- | ----------- |
-| `0-add_integer.py` | Function that adds two integers (Doctest on `tests/0-add_integer.txt`) |
-| `2-matrix_divided.py` | Function that divides all elemtns of a matrix (Doctest on `tests/2-matrix_divided.txt`) |
-| `3-say_my_name.py` | Function that prints `My name is <first name> <last name>` (Doctest on `tests/3-say_my_name.txt`) |
-| `4-print_square.py` | Function that prints a square with the character `#` (Doctest on `tests/4-print_sqaure.txt`) |
-| `5-text_indentation.py` | Function that prints a text with 2 new lines after each of these `.`, `?` and `:` (Doctest on `tests/5-text_indentation.txt`) |
-| `tests/6-max_integer_test.py` | Unittests for the function `def max_integer(list=[])` |
-| `100-matrix_mul.py` | Function that multiplies 2 matrices (Doctest on `tests/100-matrix_mul.txt`) |
-| `101-lazy_matrix_mul.py` | Function that multiplies 2 matrices by using the module **NumPy** (Doctest on `tests/101-lazy_matrix_mul.txt`) |
-| `102-python.c` | Function that prints Python strings |
+## Projects
+All of the following folders are projects done during the studies:
+
+| Project name | Description |
+| ------------ | ----------- |
+| [`0x00-hello_world`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world) | It aims to learn about variables, basics commands (print) and handle strings with **Python** |
+| [`0x01-python-if_else_loops_functions`](https://github.com/luischaparroc/holbertonschool-low_level_programming/tree/master/0x01-variables_if_else_while) | It aims to learn about if/else statements, loops, range and functions in **Python** |
+| [`0x02-python-import_modules`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x02-python-import_modules) | It aims to learn how to import functions, how to create modules and how to use command line arguments in **Python** |
+| [`0x03-python-data_structures`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x03-python-data_structures) | It aims to learn about lists, tuples and strings in **Python** |
+| [`0x04-python-more_data_structures`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x04-python-more_data_structures) | It aims to learn about sets, dictionaries and functions to handle data structures like lambda, map, reduce and filter in **Python** |
+| [`0x05-python-exceptions`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x05-python-exceptions) | It aims to learn about exceptions, how to use them, how to use errors and how to raise them in **Python** |
+| [`0x06-python-exceptions`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x06-python-classes) | It aims to learn about object oriented programming (OOP), classes, objects, instances, methods and attributes in **Python** |
+| [`0x07-python-test_driven_development`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development) | It aims to learn about docstrings to create and implement tests in **Python** |
+| [`0x08-python-more_classes`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes) | It aims to learn about object oriented programming (OOP), Data Abstraction, Data Encapsulation, instances and classes attributes in **Python** |
+| [`0x09-python-everything_is_object`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x09-python-everything_is_object) | It aims to learn about object oriented programming (OOP), mutability, identity and data types in **Python** |
+| [`0x0A-python-inheritance`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0A-python-inheritance) | It aims to learn about inheritance, superclass, baseclass and subclass in **Python** |
+| [`0x0B-python-input_output`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0B-python-input_output) | It aims to learn how to open, read, write and append files from a script in **Python** |
+| [`0x0C-python-almost_a_circle`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0C-python-almost_a_circle) | It aims to learn about unit testing, serialization, deserialization, JSON, `args` and `kwargs` in **Python** |
+| [`0x0D-SQL_introduction`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0D-SQL_introduction) | It aims to learn about databases, relational databases, subqueries, tables, **MySQL** statements and functions |
+| [`0x0E-SQL_more_queries`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0E-SQL_more_queries) | It aims to learn about how to create a new user, manage privileges for a user, `PRIMARY KEY`, `FOREIGN KEY`, constraints, subqueries, `JOIN` and `UNION` with **MySQL** |
+| [`0x0F-python-object_relational_mapping`](https://github.com/luischaparroc/holbertonschool-higher_level_programming/tree/master/0x0F-python-object_relational_mapping) | It aims to learn about how to connect to a MySQL database from a Python script, what ORM means and how to map a Python Class to a MySQL table |
