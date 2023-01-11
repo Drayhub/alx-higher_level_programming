@@ -1,12 +1,19 @@
 #!/usr/bin/python3
-"""
-function that append the content of a file.
-and if the file is not created it is created automatically
+""" Module that contains a function that appends to a text file
 """
 
 
 def append_write(filename="", text=""):
-    number = 0
-    with open(filename, 'a') as fd:
-        number = fd.write(text)
-    return (number)
+    """ Function that appends to a text file
+
+    Args:
+        filename: filename
+        text: text to write
+
+    Raises
+        Exception: when the file can be opened
+
+    """
+
+    with open(filename, 'a', encoding="utf-8") as f:
+        return f.write(text)
