@@ -1,12 +1,19 @@
 #!/usr/bin/python3
-"""
-function that overwrite the content of a file.
-and if the file is not created it is created automatically
+""" Module that contains a function that writes to a text file
 """
 
 
 def write_file(filename="", text=""):
-    number = 0
-    with open(filename, 'w') as fd:
-        number = fd.write(text)
-    return (number)
+    """ Function that writes to a text file
+
+    Args:
+        filename: filename
+        text: text to write
+
+    Raises
+        Exception: when the file can be opened
+
+    """
+
+    with open(filename, 'w', encoding="utf-8") as f:
+        return f.write(text)
