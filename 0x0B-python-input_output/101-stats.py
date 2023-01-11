@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sys
 
 # Create a dictionary to store the number of lines for each status code
