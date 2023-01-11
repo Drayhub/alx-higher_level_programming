@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" Module to print status code """
 import sys
 
 # Create a dictionary to store the number of lines for each status code
